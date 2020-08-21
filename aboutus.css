@@ -1,0 +1,138 @@
+.mediaViewInfo {
+	--web-view-name: aboutus;
+	--web-view-id: aboutus;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: aboutus;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#aboutus {
+	position: absolute;
+	width: 1280px;
+	height: 720px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: aboutus;
+	--web-view-id: aboutus;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#aboutus_n {
+	opacity: 0.6;
+	position: absolute;
+	width: 1280px;
+	height: 720px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_25__1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1195px;
+	top: 57px;
+	overflow: visible;
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8388,23.4836) rotate(45deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8387,23.4836) rotate(135deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#about_us {
+	mix-blend-mode: hard-light;
+	left: 123px;
+	top: 50px;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#The_Forex_trading_is_the_bigge {
+	left: 60px;
+	top: 120px;
+	position: absolute;
+	overflow: visible;
+	width: 1182px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.01px;
+}

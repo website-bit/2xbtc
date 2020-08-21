@@ -1,0 +1,203 @@
+.mediaViewInfo {
+	--web-view-name: contactus ;
+	--web-view-id: contactus_;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: contactus_;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#contactus_ {
+	position: absolute;
+	width: 1280px;
+	height: 720px;
+	background-color: rgba(249,249,249,1);
+	overflow: hidden;
+	--web-view-name: contactus ;
+	--web-view-id: contactus_;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#pexels-negative-space-33999 {
+	opacity: 0.7;
+	position: absolute;
+	width: 1306px;
+	height: 871px;
+	left: 0px;
+	top: -75px;
+	overflow: visible;
+}
+#close {
+	mix-blend-mode: hard-light;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1195px;
+	top: 50px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8388,23.4835) rotate(45deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8388,23.4835) rotate(135deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#contact_us {
+	left: 150px;
+	top: 100px;
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#support {
+	position: absolute;
+	width: 411px;
+	height: 58px;
+	left: 435px;
+	top: 216px;
+	overflow: visible;
+}
+#iconfinder_email_322441 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 0px;
+	top: 8px;
+	overflow: visible;
+}
+#supportbit2xtk {
+	left: 61px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#iconfinder_335_Telegram_logo_4 {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 435.5px;
+	top: 300px;
+	overflow: visible;
+}
+#iconfinder_94_171453 {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 435.5px;
+	top: 387px;
+	overflow: visible;
+}
+#shorturlatoHPQR {
+	left: 500.5px;
+	top: 314px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.03px;
+	text-transform: capitalize;
+}
+#ID1587_Penn_Street_Morrison_MO {
+	left: 500.5px;
+	top: 386px;
+	position: absolute;
+	overflow: visible;
+	width: 226px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.03px;
+	text-transform: capitalize;
+}

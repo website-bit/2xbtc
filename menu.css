@@ -1,0 +1,309 @@
+.mediaViewInfo {
+	--web-view-name: menu;
+	--web-view-id: menu;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: menu;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#menu {
+	position: absolute;
+	width: 1280px;
+	height: 720px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: menu;
+	--web-view-id: menu;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#close {
+	mix-blend-mode: hard-light;
+	position: absolute;
+	width: 35.355px;
+	height: 35.355px;
+	left: 1195px;
+	top: 50px;
+	overflow: visible;
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 50px;
+	height: 1px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-7.3223,17.6777) rotate(45deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 50px;
+	height: 1px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-7.3223,17.6777) rotate(135deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#menu_q {
+	position: absolute;
+	width: 1770px;
+	height: 996px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#home {
+	left: 130px;
+	top: 70px;
+	position: absolute;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#about_us {
+	left: 130px;
+	top: 120px;
+	position: absolute;
+	overflow: visible;
+	width: 176px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: aboutus.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#investment_plan {
+	left: 130px;
+	top: 170px;
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: investmentplan.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#affiliates {
+	left: 130px;
+	top: 220px;
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: affiliates.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#FAQ {
+	left: 130px;
+	top: 270px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: faq.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#contact_us {
+	left: 130px;
+	top: 320px;
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: contactus_.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#batton {
+	position: absolute;
+	width: 164px;
+	height: 79px;
+	left: 126px;
+	top: 392px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: invest.html;
+	cursor: pointer;
+}
+#Rectangle_2 {
+	fill: rgba(60,207,99,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 164px;
+	height: 79px;
+	left: 0px;
+	top: 0px;
+}
+#Invest {
+	left: 30px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Romantic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#close_ {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1195px;
+	top: 50px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Line_4_ {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4_ {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8388,23.4835) rotate(45deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Line_5_ {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5_ {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8388,23.4835) rotate(135deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}

@@ -1,0 +1,481 @@
+.mediaViewInfo {
+	--web-view-name: investmentplan;
+	--web-view-id: investmentplan;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: investmentplan;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#investmentplan {
+	position: absolute;
+	width: 1280px;
+	height: 1368px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: investmentplan;
+	--web-view-id: investmentplan;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#pexels-skitterphoto-9660 {
+	opacity: 0.3;
+	position: absolute;
+	width: 1349px;
+	height: 882.5px;
+	left: 0px;
+	top: 209px;
+	overflow: visible;
+}
+#close {
+	mix-blend-mode: hard-light;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1195px;
+	top: 50px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8388,23.4835) rotate(45deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8388,23.4835) rotate(135deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Investment_plan {
+	mix-blend-mode: hard-light;
+	left: 488.5px;
+	top: 84px;
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+	text-transform: capitalize;
+}
+#invest_minimum_0005_BTC_and_ge {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	left: 315px;
+	top: 271.237px;
+	position: absolute;
+	overflow: visible;
+	width: 897px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#invest_minimum_0010_BTC_and_ge {
+	left: 76px;
+	top: 500.521px;
+	position: absolute;
+	overflow: visible;
+	width: 893px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#invest_minimum_0015_BTC_and_ge {
+	left: 315px;
+	top: 670.712px;
+	position: absolute;
+	overflow: visible;
+	width: 893px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#invest_minimum_0025_BTC_and_ge {
+	left: 78px;
+	top: 859px;
+	position: absolute;
+	overflow: visible;
+	width: 897px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#invest_minimum_0005_BTC_and_ge_w {
+	left: 315px;
+	top: 1071px;
+	position: absolute;
+	overflow: visible;
+	width: 879px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Component_4__3 {
+	position: absolute;
+	width: 191px;
+	height: 91.5px;
+	left: 545px;
+	top: 1220px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: invest.html;
+	cursor: pointer;
+}
+#batton {
+	position: absolute;
+	width: 191px;
+	height: 91px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_2 {
+	fill: rgba(60,207,99,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 191px;
+	height: 91px;
+	left: 0px;
+	top: 0px;
+}
+#invest {
+	left: 30px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Romantic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#batton_ {
+	mix-blend-mode: soft-light;
+	position: absolute;
+	width: 191px;
+	height: 91px;
+	left: 0px;
+	top: 0.5px;
+	overflow: visible;
+}
+#Rectangle_2_ {
+	fill: rgba(194,173,173,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_ {
+	position: absolute;
+	overflow: visible;
+	width: 191px;
+	height: 91px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_4 {
+	fill: rgba(150,94,193,1);
+}
+.Rectangle_4 {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,131.0664,231.066) rotate(45deg);
+	transform-origin: center;
+}
+#plan1 {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 182px;
+	top: 220px;
+	overflow: visible;
+}
+#ID200_IN_24_HOURS_25_REFFCOM_M {
+	left: 147px;
+	top: 268px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#____ {
+	left: 999px;
+	top: 435px;
+	position: absolute;
+	overflow: visible;
+	width: 28px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.01px;
+}
+#_____ {
+	left: 972px;
+	top: 608.196px;
+	position: absolute;
+	overflow: visible;
+	width: 28px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.01px;
+}
+#Path_3 {
+	fill: rgba(56,115,233,1);
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	transform: matrix(1,0,0,1,999.0664,431.066) rotate(45deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#ID225_IN_22_HOURS_30_REFFCOM_M {
+	left: 1015.033px;
+	top: 467.157px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#plan2 {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 1050.033px;
+	top: 418.157px;
+	overflow: visible;
+}
+#Rectangle_7 {
+	fill: rgba(204,176,35,1);
+}
+.Rectangle_7 {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,131.0664,631.066) rotate(45deg);
+	transform-origin: center;
+}
+#ID250_IN_20_HOURS_35_REFFCOM_M {
+	left: 147.066px;
+	top: 667.157px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#plan3 {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 182.066px;
+	top: 619.157px;
+	overflow: visible;
+}
+#Path_4 {
+	fill: rgba(101,164,108,1);
+}
+.Path_4 {
+	overflow: visible;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	transform: matrix(1,0,0,1,999.0664,831.066) rotate(45deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#ID300_IN_16_HOURS_40_REFFCOM_M {
+	left: 1015.099px;
+	top: 867.157px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#plan4 {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 1050.099px;
+	top: 819.157px;
+	overflow: visible;
+}
+#Path_5 {
+	fill: rgba(21,154,30,1);
+}
+.Path_5 {
+	overflow: visible;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	transform: matrix(1,0,0,1,131.0664,1031.066) rotate(45deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#ID400_IN_12_HOURS_50_REFFCOM_U {
+	left: 147.132px;
+	top: 1067.579px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#plan5 {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 182.132px;
+	top: 1019.579px;
+	overflow: visible;
+}

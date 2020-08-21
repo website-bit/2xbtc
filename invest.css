@@ -1,0 +1,183 @@
+.mediaViewInfo {
+	--web-view-name: invest;
+	--web-view-id: invest;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: invest;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#invest {
+	position: absolute;
+	width: 1280px;
+	height: 720px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: invest;
+	--web-view-id: invest;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#pexels-worldspectrum-1108191 {
+	opacity: 0.25;
+	position: absolute;
+	width: 1540.5px;
+	height: 932px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Bitcoin_address_for_the_paymen {
+	left: 95px;
+	top: 103px;
+	position: absolute;
+	overflow: visible;
+	width: 1091px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 39px;
+	color: rgba(0,0,0,1);
+}
+#You_are_free_to_use_this_Bitco {
+	left: 297px;
+	top: 171px;
+	position: absolute;
+	overflow: visible;
+	width: 687px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Image_1 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 540px;
+	top: 267px;
+	overflow: visible;
+}
+#ID1F83UWzQ5uQXDPHpHR6LttZomJ9k {
+	left: 232px;
+	top: 483px;
+	position: absolute;
+	overflow: visible;
+	width: 817px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Romantic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#minimum_00005_BTC_maximum_1_BT {
+	left: 261px;
+	top: 548px;
+	position: absolute;
+	overflow: visible;
+	width: 759px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Note_Any_amount_less_than_0000 {
+	left: 346.5px;
+	top: 617px;
+	position: absolute;
+	overflow: visible;
+	width: 588px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Component_25__2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1195px;
+	top: 50px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8389,23.4835) rotate(45deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 67.678px;
+	height: 3.033px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,-8.8387,23.4835) rotate(135deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
